@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 import json
 import requests
 
-load_dotenv('.env')
 client = commands.Bot(command_prefix="ai!")
 token = os.getenv('DISCORD_TOKEN')
 
